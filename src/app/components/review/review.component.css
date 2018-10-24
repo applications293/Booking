@@ -1,0 +1,17 @@
+.msgwelcome{
+    margin-left: 30%;
+    margin-top: 10%;
+    border: solid 2px;
+    margin-right: 30%;
+    background-color: bisque;
+    
+}
+
+.msgwelcome p {
+    padding-left: 50px;
+}
+
+span{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace  
+}

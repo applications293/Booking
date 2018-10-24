@@ -1,0 +1,13 @@
+.header{
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 3px;
+    color: darkgoldenrod;
+    position: fixed;
+    top: 10;
+    left: 50%;
+    transform: translateX(-50%);
+    
+
+}
+

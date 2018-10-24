@@ -1,0 +1,26 @@
+.display p{
+    display: block;
+    text-align: left;
+    color: deepskyblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+}
+.display{
+    padding-top: 15%;
+    background-color: antiquewhite;
+    border: 2px solid;
+    padding: 20px; 
+    width: 300px;
+    resize: both;
+    overflow: auto;
+   margin-left: 40%; 
+   margin-top: 10%;
+    
+}
+.display button{
+    margin-left: 60px;
+    
+    color: rgb(255, 255, 255); font-size: 17px; line-height: 17px; padding: 7px; border-radius: 5px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
+    border: 2px solid rgb(28, 110, 164); display: inline-block;
+    width: 150px;
+}

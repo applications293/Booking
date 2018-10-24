@@ -1,0 +1,22 @@
+<div>
+
+ <form style=" width: 100px">
+ 
+  <h2>Reservation Form</h2>
+    <label >Name:</label>
+    <input type="text" name="Name" placeholder="Enter your name" [(ngModel)]="Name">
+      <label >Surname</label>
+      <input type="text" name="Surname" placeholder="Enter your surname"  [(ngModel)]="Surname">
+      <label >Email:</label>
+      <input type="text" name="Email" placeholder="Enter your email"  [(ngModel)]="Email">
+      <label >StartDate:</label>
+      <input type="date" name="StartDate"  [(ngModel)]="StartDate" style=" width: 168px">
+      <label >EndDate:</label>
+      <input type="date" name="EndDate"  [(ngModel)]="EndDate" style=" width: 168px">
+      <br>
+      <br> 
+      <button id="btnsubmit" type="submit" (click)="onSubmit()" style=" width: 175px">Confirm Reservation</button>
+
+</form>
+
+</div>
